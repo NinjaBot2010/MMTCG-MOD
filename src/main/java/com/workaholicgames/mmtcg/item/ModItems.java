@@ -16,7 +16,7 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MmTcg.MOD_ID);
 
     public static final DeferredItem<Item> BULBA_STANDARD = ITEMS.register("bulba_standard",
-            () -> new Item(new Item.Properties()){
+            () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                     tooltipComponents.add(Component.translatable("item.mmtcg.bulba_standard.tooltip"));
@@ -25,7 +25,7 @@ public class ModItems {
             });
 
     public static final DeferredItem<Item> GAVIN_STANDARD = ITEMS.register("gavin_standard",
-            () -> new Item(new Item.Properties()){
+            () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                     tooltipComponents.add(Component.translatable("item.mmtcg.gavin_standard.tooltip"));
