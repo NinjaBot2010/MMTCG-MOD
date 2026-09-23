@@ -24,6 +24,15 @@ public class ModItems {
                 }
             });
 
+    public static final DeferredItem<Item> GAVIN_STANDARD = ITEMS.register("gavin_standard",
+            () -> new Item(new Item.Properties()){
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("item.mmtcg.gavin_standard.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

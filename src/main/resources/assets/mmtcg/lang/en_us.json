@@ -1,4 +1,7 @@
 {
   "item.mmtcg.bulba_standard": "Bulba Standard",
-  "item.mmtcg.bulba_standard.tooltip": "This is §5Bulba Standard"
+  "item.mmtcg.bulba_standard.tooltip": "This is §5Bulba Standard",
+
+  "item.mmtcg.gavin_standard": "Gavin Standard",
+  "item.mmtcg.gavin_standard.tooltip": "This is §6Gavin Standard"
 }

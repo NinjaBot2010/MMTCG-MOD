@@ -50,6 +50,7 @@ public class MmTcg {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BULBA_STANDARD);
+            event.accept(ModItems.GAVIN_STANDARD);
         }
     }
 
