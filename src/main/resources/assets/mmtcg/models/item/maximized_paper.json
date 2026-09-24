@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "mmtcg:item/series_one_booster"
+    "layer0": "mmtcg:item/maximized_paper"
   }
 }

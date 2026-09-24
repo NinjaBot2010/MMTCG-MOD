@@ -23,8 +23,10 @@ public class ModItems {
     public static final DeferredItem<Item> MAXIMITE_INGOT = ITEMS.register("maximite_ingot",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> MAXIMIZED_PAPER = ITEMS.register("maximized_paper",
+            () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> SERIES_ONE_BOOSTER = ITEMS.register("series_one_booster",
+    public static final DeferredItem<Item> SERIES_ONE_BOOSTER = ITEMS.register("series_one_booster.json",
             () -> new SeriesOneBoosterItem(new Item.Properties()));
 
     public static final DeferredItem<Item> SERIES_TWO_BOOSTER = ITEMS.register("series_two_booster",
@@ -500,7 +502,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    tooltipComponents.add(Component.translatable("item.mmtcg.melonslicer.tooltip"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.item_melonslicer.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -698,7 +700,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    tooltipComponents.add(Component.translatable("item.mark_space.tooltip"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.mark_space.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });

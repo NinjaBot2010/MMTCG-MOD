@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:purple_dye"
+    },
+    "M": {
+      "item": "mmtcg:maximized_paper"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MDM",
+    "MMM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mmtcg:series_three_booster"
+  }
+}
