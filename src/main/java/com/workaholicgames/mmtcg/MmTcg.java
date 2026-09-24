@@ -1,5 +1,6 @@
 package com.workaholicgames.mmtcg;
 
+import com.workaholicgames.mmtcg.block.ModBlocks;
 import com.workaholicgames.mmtcg.item.ModCreativeModeTabs;
 import com.workaholicgames.mmtcg.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -36,6 +37,7 @@ public class MmTcg {
 
         ModCreativeModeTabs.register(modEventBus);
 
+        ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
 
         // Register the item to a creative tab
