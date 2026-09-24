@@ -15,6 +15,9 @@ import java.util.List;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MmTcg.MOD_ID);
 
+    public static final DeferredItem<Item> RAW_MM = ITEMS.register("raw_mm",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> BULBA_STANDARD = ITEMS.register("bulba_standard",
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override

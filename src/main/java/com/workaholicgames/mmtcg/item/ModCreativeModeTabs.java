@@ -1,6 +1,7 @@
 package com.workaholicgames.mmtcg.item;
 
 import com.workaholicgames.mmtcg.MmTcg;
+import com.workaholicgames.mmtcg.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -15,8 +16,17 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MmTcg.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> MMTGC_SERIES_1_TAB = CREATIVE_MODE_TAB.register("mmtcg_series_1_tab",
+    public static final Supplier<CreativeModeTab> MMTCG_BLOCKS_TAB = CREATIVE_MODE_TAB.register("mmtcg_blocks_tab",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.MM_ORE.get()))
+                    .title(Component.translatable("creativetab.mmtcg.blocks"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.MM_ORE);
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> MMTCG_SERIES_1_TAB = CREATIVE_MODE_TAB.register("mmtcg_series_1_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BULBA_STANDARD.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MmTcg.MOD_ID, "mmtcg_blocks_tab"))
                     .title(Component.translatable("creativetab.mmtcg.series_1"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ACTION_67);
@@ -110,7 +120,7 @@ public class ModCreativeModeTabs {
 
                     }).build());
 
-    public static final Supplier<CreativeModeTab> MMTGC_SERIES_2_TAB = CREATIVE_MODE_TAB.register("mmtcg_series_2_tab",
+    public static final Supplier<CreativeModeTab> MMTCG_SERIES_2_TAB = CREATIVE_MODE_TAB.register("mmtcg_series_2_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BULBA_STANDARD.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MmTcg.MOD_ID, "mmtcg_series_1_tab"))
                     .title(Component.translatable("creativetab.mmtcg.series_2"))
@@ -206,7 +216,7 @@ public class ModCreativeModeTabs {
 
                     }).build());
 
-    public static final Supplier<CreativeModeTab> MMTGC_SERIES_3_TAB = CREATIVE_MODE_TAB.register("mmtcg_series_3_tab",
+    public static final Supplier<CreativeModeTab> MMTCG_SERIES_3_TAB = CREATIVE_MODE_TAB.register("mmtcg_series_3_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BULBA_STANDARD.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MmTcg.MOD_ID, "mmtcg_series_2_tab"))
                     .title(Component.translatable("creativetab.mmtcg.series_3"))
@@ -302,7 +312,7 @@ public class ModCreativeModeTabs {
 
                     }).build());
 
-    public static final Supplier<CreativeModeTab> MMTGC_SERIES_4_TAB = CREATIVE_MODE_TAB.register("mmtcg_series_4_tab",
+    public static final Supplier<CreativeModeTab> MMTCG_SERIES_4_TAB = CREATIVE_MODE_TAB.register("mmtcg_series_4_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BULBA_STANDARD.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MmTcg.MOD_ID, "mmtcg_series_3_tab"))
                     .title(Component.translatable("creativetab.mmtcg.series_4"))
