@@ -18,6 +18,9 @@ public class ModItems {
     public static final DeferredItem<Item> RAW_MM = ITEMS.register("raw_mm",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> MAXIMITE_INGOT = ITEMS.register("maximite_ingot",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> BULBA_STANDARD = ITEMS.register("bulba_standard",
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
