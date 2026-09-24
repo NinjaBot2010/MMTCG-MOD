@@ -96,7 +96,7 @@ public class ModItems {
                 }
             });
 
-    public static final DeferredItem<Item> ACTION_LOCKIN = ITEMS.register("action_lockin.tooltip",
+    public static final DeferredItem<Item> ACTION_LOCKIN = ITEMS.register("action_lockin",
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {

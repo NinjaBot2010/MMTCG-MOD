@@ -1,5 +1,6 @@
 package com.workaholicgames.mmtcg;
 
+import com.workaholicgames.mmtcg.item.ModCreativeModeTabs;
 import com.workaholicgames.mmtcg.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -33,6 +34,8 @@ public class MmTcg {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         // Register the item to a creative tab
@@ -48,10 +51,7 @@ public class MmTcg {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.BULBA_STANDARD);
-            event.accept(ModItems.GAVIN_STANDARD);
-        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

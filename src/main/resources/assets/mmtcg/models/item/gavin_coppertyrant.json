@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "mmtcg:item/charlie_badeyesight"
+    "layer0": "mmtcg:item/gavin_coppertyrant"
   }
 }
