@@ -19,7 +19,7 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(MmTcg.MOD_ID);
 
-    public static final DeferredBlock<Block> MM_ORE = registerBlock("mm_ore",
+    public static final DeferredBlock<Block> MAXIMITE_ORE = registerBlock("maximite_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 

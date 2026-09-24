@@ -18,10 +18,10 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> MMTCG_BLOCKS_TAB = CREATIVE_MODE_TAB.register("mmtcg_blocks_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModBlocks.MM_ORE.get()))
+                    .icon(() -> new ItemStack(ModBlocks.MAXIMITE_ORE.get()))
                     .title(Component.translatable("creativetab.mmtcg.blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.MM_ORE);
+                        output.accept(ModBlocks.MAXIMITE_ORE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> MMTCG_SERIES_1_TAB = CREATIVE_MODE_TAB.register("mmtcg_series_1_tab",
