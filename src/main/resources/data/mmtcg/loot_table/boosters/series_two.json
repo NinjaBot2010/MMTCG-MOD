@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:bulba_standard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:gavin_standard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:mark_standard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:jonathan_standard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:sawyer_standard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:adam_standard"
+        }
+      ]
+    }
+  ]
+}

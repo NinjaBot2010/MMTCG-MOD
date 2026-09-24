@@ -1,6 +1,8 @@
 package com.workaholicgames.mmtcg.item;
 
 import com.workaholicgames.mmtcg.MmTcg;
+import com.workaholicgames.mmtcg.item.custom.SeriesFourBoosterItem;
+import com.workaholicgames.mmtcg.item.custom.SeriesOneBoosterItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -20,6 +22,20 @@ public class ModItems {
 
     public static final DeferredItem<Item> MAXIMITE_INGOT = ITEMS.register("maximite_ingot",
             () -> new Item(new Item.Properties()));
+
+
+    public static final DeferredItem<Item> SERIES_ONE_BOOSTER = ITEMS.register("series_one_booster",
+            () -> new SeriesOneBoosterItem(new Item.Properties()));
+
+    public static final DeferredItem<Item> SERIES_TWO_BOOSTER = ITEMS.register("series_two_booster",
+            () -> new SeriesOneBoosterItem(new Item.Properties()));
+
+    public static final DeferredItem<Item> SERIES_THREE_BOOSTER = ITEMS.register("series_three_booster",
+            () -> new SeriesOneBoosterItem(new Item.Properties()));
+
+    public static final DeferredItem<Item> SERIES_FOUR_BOOSTER = ITEMS.register("series_four_booster",
+            () -> new SeriesFourBoosterItem(new Item.Properties()));
+
 
     public static final DeferredItem<Item> BULBA_STANDARD = ITEMS.register("bulba_standard",
             () -> new Item(new Item.Properties().stacksTo(1)){
