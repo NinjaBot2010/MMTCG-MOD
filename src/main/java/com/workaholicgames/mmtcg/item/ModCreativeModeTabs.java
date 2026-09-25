@@ -22,9 +22,17 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.mmtcg.other_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.MAXIMITE_ORE);
-                        output.accept(ModItems.RAW_MM);
+                        output.accept(ModBlocks.MAXIMITE_BLOCK);
+                        output.accept(ModBlocks.RAW_MAXIMITE_BLOCK);
+                        output.accept(ModItems.RAW_MAXIMITE);
                         output.accept(ModItems.MAXIMITE_INGOT);
                         output.accept(ModItems.MAXIMIZED_PAPER);
+                        output.accept(ModItems.CAPTIN_BOOSTER_ITEM);
+                        output.accept(ModItems.CUBE_OF_RUIN);
+                        output.accept(ModItems.DELL);
+                        output.accept(ModItems.GERALD);
+                        output.accept(ModItems.MOLDY_BREAD);
+                        output.accept(ModItems.STEIN);
                     }).build());
 
     public static final Supplier<CreativeModeTab> MMTCG_SERIES_1_TAB = CREATIVE_MODE_TAB.register("mmtcg_series_1_tab",
@@ -144,7 +152,22 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.mmtcg.series_4"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.SERIES_FOUR_BOOSTER);
-
+                        output.accept(ModItems.ADAM_SAYGIGA);
+                        output.accept(ModItems.ADAM_SIDEKICK);
+                        output.accept(ModItems.BULBA_BULBIKA);
+                        output.accept(ModItems.CHARLIE_BADEYESIGHT);
+                        output.accept(ModItems.CHARLIE_CHARLESUKI);
+                        output.accept(ModItems.CHARLIE_SNIPER);
+                        output.accept(ModItems.DIEGO_HORSELORD);
+                        output.accept(ModItems.DIEGO_SOUPSERVER);
+                        output.accept(ModItems.DIEGO_STANDARD);
+                        output.accept(ModItems.GAVIN_BLIMPBLOWER);
+                        output.accept(ModItems.GAVIN_COPPERTINE);
+                        output.accept(ModItems.GAVIN_DWARF);
+                        output.accept(ModItems.GAVIN_GRUVIN);
+                        output.accept(ModItems.JONATHAN_OILRIGGER);
+                        output.accept(ModItems.ROBERT_PIRATE);
+                        output.accept(ModItems.SAWYER_SAWYURI);
                     }).build());
 
     public static void register(IEventBus eventBus) {

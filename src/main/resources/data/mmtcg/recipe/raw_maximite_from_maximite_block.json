@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mmtcg:raw_maximite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "mmtcg:raw_maximite"
+  }
+}

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "mmtcg:maximite_ore"
+    "mmtcg:maximite_ore",
+    "mmtcg:raw_maximite_block",
+    "mmtcg:maximite_block"
   ]
 }
