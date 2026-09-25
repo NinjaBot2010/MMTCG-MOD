@@ -6,7 +6,67 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "mmtcg:action_bitcoinmining"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:action_gambling"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:action_joinmelons"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:action_lockin"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:action_nextseason"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:action_nukes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:adam_jumpscare"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:adam_standard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:adam_suck87"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:bulba_accurate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:bulba_meloncommander"
+        },
+        {
+          "type": "minecraft:item",
           "name": "mmtcg:bulba_standard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:bulba_trueterrarian"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:bulba_workaholic"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:gavin_coppertyrant"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:gavin_meloncommander"
         },
         {
           "type": "minecraft:item",
@@ -14,7 +74,39 @@
         },
         {
           "type": "minecraft:item",
-          "name": "mmtcg:mark_standard"
+          "name": "mmtcg:gavin_trueamerican"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:item_americanflag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:item_gate_de"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:item_melonslicer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:item_salsa"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:item_theegg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:jonathan_lockedin"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:jonathan_meloncommander"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:jonathan_modrinth"
         },
         {
           "type": "minecraft:item",
@@ -22,11 +114,27 @@
         },
         {
           "type": "minecraft:item",
-          "name": "mmtcg:sawyer_standard"
+          "name": "mmtcg:mark_commander"
         },
         {
           "type": "minecraft:item",
-          "name": "mmtcg:adam_standard"
+          "name": "mmtcg:mark_standard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:mark_stare"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:sawyer_bitcoin"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:sawyer_gamingsession"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:sawyer_standard"
         }
       ]
     }
