@@ -26,7 +26,7 @@ public class ModItems {
     public static final DeferredItem<Item> MAXIMIZED_PAPER = ITEMS.register("maximized_paper",
             () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> SERIES_ONE_BOOSTER = ITEMS.register("series_one_booster.json",
+    public static final DeferredItem<Item> SERIES_ONE_BOOSTER = ITEMS.register("series_one_booster",
             () -> new SeriesOneBoosterItem(new Item.Properties()));
 
     public static final DeferredItem<Item> SERIES_TWO_BOOSTER = ITEMS.register("series_two_booster",
