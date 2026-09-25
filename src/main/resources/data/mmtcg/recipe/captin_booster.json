@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "M": {
+      "item": "mmtcg:maximized_paper"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MDM",
+    "MMM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mmtcg:captin_booster"
+  }
+}
