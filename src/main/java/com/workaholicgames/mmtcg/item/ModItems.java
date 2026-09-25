@@ -124,9 +124,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
-                        tooltipComponents.add(Component.translatable("item.mmtcg.action_67.tooltip" + (i==1?"":i)));
-                    }
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_67.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -135,9 +133,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
-                        tooltipComponents.add(Component.translatable("item.mmtcg.action_assassination.tooltip" + (i==1?"":i)));
-                    }
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_assassination.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -146,9 +142,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
-                        tooltipComponents.add(Component.translatable("item.mmtcg.action_bitcoinmining.tooltip" + (i==1?"":i)));
-                    }
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_bitcoinmining.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -157,9 +151,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
-                        tooltipComponents.add(Component.translatable("item.mmtcg.action_gambling.tooltip" + (i==1 ? "" : i)));
-                    }
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_gambling.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -168,9 +160,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
-                        tooltipComponents.add(Component.translatable("item.mmtcg.action_getcracked.tooltip" + (i==1 ? "" : i)));
-                    }
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_getcracked.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -179,9 +169,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
-                        tooltipComponents.add(Component.translatable("item.mmtcg.action_ghosthunt.tooltip" + (i==1 ? "" : i)));
-                    }
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_ghosthunt.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -190,9 +178,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
-                        tooltipComponents.add(Component.translatable("item.mmtcg.action_joinmelons.tooltip" + (i==1 ? "" : i)));
-                    }
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_joinmelons.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -201,9 +187,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
-                        tooltipComponents.add(Component.translatable("item.mmtcg.action_lockin.tooltip" + (i==1 ? "" : i)));
-                    }
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_lockin.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -212,9 +196,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
-                        tooltipComponents.add(Component.translatable("item.mmtcg.action_nextseason.tooltip" + (i==1 ? "" : i)));
-                    }
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_nextseason.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -223,9 +205,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
-                        tooltipComponents.add(Component.translatable("item.mmtcg.action_nukes.tooltip" + (i==1 ? "" : i)));
-                    }
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_nukes.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -234,9 +214,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
-                        tooltipComponents.add(Component.translatable("item.mmtcg.action_secretservice.tooltip"  + (i==1 ? "" : i)));
-                    }
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_secretservice.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -245,9 +223,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
-                        tooltipComponents.add(Component.translatable("item.mmtcg.action_slander.tooltip"  + (i==1 ? "" : i)));
-                    }
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_slander.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -256,9 +232,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
-                        tooltipComponents.add(Component.translatable("item.mmtcg.action_sportstalk.tooltip"   + (i==1 ? "" : i)));
-                    }
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_sportstalk.tooltip"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -597,7 +571,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
+                    for (int i =1; i<=2; i++) {
                         tooltipComponents.add(Component.translatable("item.mmtcg.item_americanflag.tooltip" + (i==1 ? "" : i)));
                     }
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
@@ -608,7 +582,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
+                    for (int i =1; i<=2; i++) {
                         tooltipComponents.add(Component.translatable("item.mmtcg.item_bank.tooltip" + (i==1 ? "" : i)));
                     }
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
@@ -619,7 +593,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
+                    for (int i =1; i<=2; i++) {
                         tooltipComponents.add(Component.translatable("item.mmtcg.item_casino.tooltip" + (i==1 ? "" : i)));
                     }
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
@@ -630,7 +604,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
+                    for (int i =1; i<=2; i++) {
                         tooltipComponents.add(Component.translatable("item.mmtcg.item_esf.tooltip" + (i==1 ? "" : i)));
                     }
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
@@ -641,7 +615,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
+                    for (int i =1; i<=2; i++) {
                         tooltipComponents.add(Component.translatable("item.mmtcg.item_gate_de.tooltip" + (i==1 ? "" : i)));
                     }
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
@@ -652,7 +626,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
+                    for (int i =1; i<=2; i++) {
                         tooltipComponents.add(Component.translatable("item.mmtcg.item_melonslicer.tooltip" + (i==1 ? "" : i)));
                     }
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
@@ -663,7 +637,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
+                    for (int i =1; i<=2; i++) {
                         tooltipComponents.add(Component.translatable("item.mmtcg.item_nuclearbunker.tooltip" + (i==1 ? "" : i)));
                     }
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
@@ -674,7 +648,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
+                    for (int i =1; i<=2; i++) {
                         tooltipComponents.add(Component.translatable("item.mmtcg.item_salsa.tooltip" + (i==1 ? "" : i)));
                     }
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
@@ -685,7 +659,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
+                    for (int i =1; i<=2; i++) {
                         tooltipComponents.add(Component.translatable("item.mmtcg.item_theegg.tooltip" + (i==1 ? "" : i)));
                     }
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
@@ -696,7 +670,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    for (int i =1; i<=8; i++) {
+                    for (int i =1; i<=2; i++) {
                         tooltipComponents.add(Component.translatable("item.mmtcg.item_yourmom.tooltip" + (i==1 ? "" : i)));
                     }
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
