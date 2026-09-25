@@ -6,27 +6,123 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mmtcg:bulba_standard"
+          "name": "mmtcg:action_67"
         },
         {
           "type": "minecraft:item",
-          "name": "mmtcg:gavin_standard"
+          "name": "mmtcg:action_getcracked"
         },
         {
           "type": "minecraft:item",
-          "name": "mmtcg:mark_standard"
+          "name": "mmtcg:action_secretservice"
         },
         {
           "type": "minecraft:item",
-          "name": "mmtcg:jonathan_standard"
+          "name": "mmtcg:action_slander"
         },
         {
           "type": "minecraft:item",
-          "name": "mmtcg:sawyer_standard"
+          "name": "mmtcg:adam_kira"
         },
         {
           "type": "minecraft:item",
-          "name": "mmtcg:adam_standard"
+          "name": "mmtcg:bulba_anime"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:bulba_beast"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:bulba_mcdonalds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:bulba_seedplanter"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:bulba_wide"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:charlie_badeyesight"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:charlie_blaze"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:charlie_donutdev"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:charlie_russian"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:charlie_standard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:gavin_rizz"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:item_esf"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:item_nuclearbunker"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:jonathan_arrested"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:jonathan_scaryhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:jonathan_workout"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:mark_bedwars"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:mark_cowboy"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:mark_knight"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:robert_engineer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:robert_oppenheimer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:robert_standard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:sawyer_hornet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:sawyer_miku"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:sawyer_musician"
         }
       ]
     }

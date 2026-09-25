@@ -23,7 +23,7 @@ public class SeriesTwoBoosterItem extends Item {
 
     public static final ResourceKey<LootTable> SERIES_TWO_LOOT_TABLE = ResourceKey.create(
             Registries.LOOT_TABLE,
-            ResourceLocation.fromNamespaceAndPath("mmtcg", "boosters/series_TWO")
+            ResourceLocation.fromNamespaceAndPath("mmtcg", "boosters/series_two")
     );
 
 	public SeriesTwoBoosterItem(Properties properties) {

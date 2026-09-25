@@ -6,27 +6,99 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mmtcg:bulba_standard"
+          "name": "mmtcg:action_assassination"
         },
         {
           "type": "minecraft:item",
-          "name": "mmtcg:gavin_standard"
+          "name": "mmtcg:action_ghosthunt"
         },
         {
           "type": "minecraft:item",
-          "name": "mmtcg:mark_standard"
+          "name": "mmtcg:action_sportstalk"
         },
         {
           "type": "minecraft:item",
-          "name": "mmtcg:jonathan_standard"
+          "name": "mmtcg:adam_gigabot"
         },
         {
           "type": "minecraft:item",
-          "name": "mmtcg:sawyer_standard"
+          "name": "mmtcg:adam_lamb"
         },
         {
           "type": "minecraft:item",
-          "name": "mmtcg:adam_standard"
+          "name": "mmtcg:adam_tv"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:bulba_chestboat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:bulba_santa"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:bulba_terrorist"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:gavin_nuggie"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:gavin_viking"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:item_bank"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:item_casino"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:item_yourmom"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:jonathan_mafia"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:jonathan_mm"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:jonathan_pilot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:jonathan_politician"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:mark_chestboat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:mark_rocketeer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:mark_space"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:sawyer_chef"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:sawyer_crashout"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:sawyer_salty"
         }
       ]
     }

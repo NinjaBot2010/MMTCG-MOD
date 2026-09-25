@@ -16,17 +16,20 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MmTcg.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> MMTCG_BLOCKS_TAB = CREATIVE_MODE_TAB.register("mmtcg_blocks_tab",
+    public static final Supplier<CreativeModeTab> MMTCG_OTHER_TAB = CREATIVE_MODE_TAB.register("mmtcg_other_tab",
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModBlocks.MAXIMITE_ORE.get()))
-                    .title(Component.translatable("creativetab.mmtcg.blocks"))
+                    .title(Component.translatable("creativetab.mmtcg.other_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.MAXIMITE_ORE);
+                        output.accept(ModItems.RAW_MM);
+                        output.accept(ModItems.MAXIMITE_INGOT);
+                        output.accept(ModItems.MAXIMIZED_PAPER);
                     }).build());
 
     public static final Supplier<CreativeModeTab> MMTCG_SERIES_1_TAB = CREATIVE_MODE_TAB.register("mmtcg_series_1_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SERIES_ONE_BOOSTER.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MmTcg.MOD_ID, "mmtcg_blocks_tab"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MmTcg.MOD_ID, "mmtcg_other_tab"))
                     .title(Component.translatable("creativetab.mmtcg.series_1"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.SERIES_ONE_BOOSTER);
