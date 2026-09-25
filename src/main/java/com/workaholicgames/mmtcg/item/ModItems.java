@@ -46,6 +46,13 @@ public class ModItems {
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                     tooltipComponents.add(Component.translatable("item.mmtcg.bulba_standard.tooltip"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.bulba_standard.tooltip2"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.bulba_standard.tooltip3"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.bulba_standard.tooltip4"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.bulba_standard.tooltip5"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.bulba_standard.tooltip6"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.bulba_standard.tooltip7"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.bulba_standard.tooltip8"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -55,6 +62,13 @@ public class ModItems {
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                     tooltipComponents.add(Component.translatable("item.mmtcg.gavin_standard.tooltip"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.gavin_standard.tooltip2"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.gavin_standard.tooltip3"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.gavin_standard.tooltip4"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.gavin_standard.tooltip5"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.gavin_standard.tooltip6"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.gavin_standard.tooltip7"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.gavin_standard.tooltip8"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -64,6 +78,13 @@ public class ModItems {
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                     tooltipComponents.add(Component.translatable("item.mmtcg.action_67.tooltip"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_67.tooltip2"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_67.tooltip3"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_67.tooltip4"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_67.tooltip5"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_67.tooltip6"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_67.tooltip7"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_67.tooltip8"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
@@ -73,6 +94,14 @@ public class ModItems {
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                     tooltipComponents.add(Component.translatable("item.mmtcg.action_assassination.tooltip"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_assassination.tooltip"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_assassination.tooltip2"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_assassination.tooltip3"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_assassination.tooltip4"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_assassination.tooltip5"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_assassination.tooltip6"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_assassination.tooltip7"));
+                    tooltipComponents.add(Component.translatable("item.mmtcg.action_assassination.tooltip8"));
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
