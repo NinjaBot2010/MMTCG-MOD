@@ -22,9 +22,17 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.mmtcg.other_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.MAXIMITE_ORE);
-                        output.accept(ModItems.RAW_MM);
+                        output.accept(ModBlocks.MAXIMITE_BLOCK);
+                        output.accept(ModBlocks.RAW_MAXIMITE_BLOCK);
+                        output.accept(ModItems.RAW_MAXIMITE);
                         output.accept(ModItems.MAXIMITE_INGOT);
                         output.accept(ModItems.MAXIMIZED_PAPER);
+                        output.accept(ModItems.CAPTIN_BOOSTER_ITEM);
+                        output.accept(ModItems.CUBE_OF_RUIN);
+                        output.accept(ModItems.DELL);
+                        output.accept(ModItems.GERALD);
+                        output.accept(ModItems.MOLDY_BREAD);
+                        output.accept(ModItems.STEIN);
                     }).build());
 
     public static final Supplier<CreativeModeTab> MMTCG_SERIES_1_TAB = CREATIVE_MODE_TAB.register("mmtcg_series_1_tab",

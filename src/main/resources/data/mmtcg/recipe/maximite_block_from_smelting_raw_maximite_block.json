@@ -5,11 +5,11 @@
   "experience": 0.25,
   "group": "maximite",
   "ingredient": {
-    "item": "mmtcg:raw_maximite"
+    "item": "mmtcg:raw_maximite_block"
   },
   "result": {
     "count": 1,
-    "id": "mmtcg:maximite_ingot"
+    "id": "mmtcg:maximite_block"
   }
 
 }

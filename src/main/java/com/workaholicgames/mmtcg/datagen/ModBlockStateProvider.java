@@ -16,6 +16,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.MAXIMITE_ORE);
+        blockWithItem(ModBlocks.RAW_MAXIMITE_BLOCK);
+        blockWithItem(ModBlocks.MAXIMITE_BLOCK);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

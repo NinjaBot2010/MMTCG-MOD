@@ -15,7 +15,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         basicItem(ModItems.MAXIMITE_INGOT.get());
         basicItem(ModItems.MAXIMIZED_PAPER.get());
-        basicItem(ModItems.RAW_MM.get());
+        basicItem(ModItems.RAW_MAXIMITE.get());
 
         basicItem(ModItems.CAPTIN_BOOSTER_ITEM.get());
         basicItem(ModItems.SERIES_ONE_BOOSTER.get());

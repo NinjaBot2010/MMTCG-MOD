@@ -16,7 +16,7 @@ import java.util.List;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MmTcg.MOD_ID);
 
-    public static final DeferredItem<Item> RAW_MM = ITEMS.register("raw_mm",
+    public static final DeferredItem<Item> RAW_MAXIMITE = ITEMS.register("raw_maximite",
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> MAXIMITE_INGOT = ITEMS.register("maximite_ingot",

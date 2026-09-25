@@ -27,7 +27,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         add(ModBlocks.MAXIMITE_ORE.get(),
-                block -> createOreDrop(ModBlocks.MAXIMITE_ORE.get(), ModItems.RAW_MM.get()));
+                block -> createOreDrop(ModBlocks.MAXIMITE_ORE.get(), ModItems.RAW_MAXIMITE.get()));
+        dropSelf(ModBlocks.MAXIMITE_BLOCK.get());
+        dropSelf(ModBlocks.RAW_MAXIMITE_BLOCK.get());
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

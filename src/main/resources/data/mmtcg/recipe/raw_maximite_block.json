@@ -2,20 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "D": {
-      "item": "minecraft:green_dye"
-    },
     "M": {
-      "item": "mmtcg:maximized_paper"
+      "item": "mmtcg:raw_maximite"
     }
   },
   "pattern": [
     "MMM",
-    "MDM",
+    "MMM",
     "MMM"
   ],
   "result": {
     "count": 1,
-    "id": ""
+    "id": "mmtcg:raw_maximite_block"
   }
 }
