@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:cube_of_ruin"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:dell"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:gerald"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:moldy_bread"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mmtcg:stein"
+        }
+      ]
+    }
+  ]
+}

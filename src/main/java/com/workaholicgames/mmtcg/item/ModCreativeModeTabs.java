@@ -144,7 +144,22 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.mmtcg.series_4"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.SERIES_FOUR_BOOSTER);
-
+                        output.accept(ModItems.ADAM_SAYGIGA);
+                        output.accept(ModItems.ADAM_SIDEKICK);
+                        output.accept(ModItems.BULBA_BULBIKA);
+                        output.accept(ModItems.CHARLIE_BADEYESIGHT);
+                        output.accept(ModItems.CHARLIE_CHARLESUKI);
+                        output.accept(ModItems.CHARLIE_SNIPER);
+                        output.accept(ModItems.DIEGO_HORSELORD);
+                        output.accept(ModItems.DIEGO_SOUPSERVER);
+                        output.accept(ModItems.DIEGO_STANDARD);
+                        output.accept(ModItems.GAVIN_BLIMPBLOWER);
+                        output.accept(ModItems.GAVIN_COPPERTINE);
+                        output.accept(ModItems.GAVIN_DWARF);
+                        output.accept(ModItems.GAVIN_GRUVIN);
+                        output.accept(ModItems.JONATHAN_OILRIGGER);
+                        output.accept(ModItems.ROBERT_PIRATE);
+                        output.accept(ModItems.SAWYER_SAWYURI);
                     }).build());
 
     public static void register(IEventBus eventBus) {
