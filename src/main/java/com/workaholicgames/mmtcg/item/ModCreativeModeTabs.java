@@ -155,7 +155,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ADAM_SAYGIGA);
                         output.accept(ModItems.ADAM_SIDEKICK);
                         output.accept(ModItems.BULBA_BULBIKA);
-                        output.accept(ModItems.CHARLIE_BADEYESIGHT);
                         output.accept(ModItems.CHARLIE_CHARLESUKI);
                         output.accept(ModItems.CHARLIE_SNIPER);
                         output.accept(ModItems.DIEGO_HORSELORD);
